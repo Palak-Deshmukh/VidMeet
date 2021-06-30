@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --main_color:#ffffff;
+    --font1:'Roboto', sans-serif;
+    --theme_color:rgb(83, 16, 190);
+}
+*{
+    padding: 0;
+    margin: 0;
+    
+    font-family: var(--font1);
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 18%;
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+ 
+}
+
+.logo img{
+    width: 18%;
+}
+
+.logo p{
+    font-weight: bold;
+    color: grey;
+    padding-top: 1em;
+    
+}
+
+nav ul{
+    
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li{
+    padding-top: 1em;
+    text-decoration: none;
+}
+nav ul li:last-child{
+    padding-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:var(--theme_color);
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    color: var(--theme_color);
+    text-decoration: none;
+    cursor: pointer;
+
+    font-weight: bolder;
+    
+
+}
+#tagline {
+    background-color: var(--theme_color);
+    
+    
+}
+#tagline p{
+    color: var(--main_color);
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    
+    font-size:1em;
+    font-weight: 400;
+    margin-bottom: 0;
+
+}
+
+.signupbox{
+   
+    background-color: rgba(230,230,250,0.4);
+}
+.sign{
+    margin-top: 3em;
+    margin-left:3em ;
+    padding-top: 3em;
+    padding-left:3em ;
+}
+.signupbox h1{
+    
+    color:var(--theme_color);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.signupbox h2{
+    
+    font-size: 1.8em;
+    font-weight: 300;
+}
+
+.signupbox button{
+    width: 50%;
+    height: 3em;   
+}
+
+.signupbox img{
+    height: 500px;  
+    max-width: 100%; 
+}
+
+.signup{
+    border: none;
+    background-color: var(--theme_color);
+    color: var(--main_color);
+    margin-top:2em ;
+}
+
+.signin{
+    margin-top: 1em;
+    border-color: var(--theme_color);
+    color: var(--theme_color);
+    background-color: var(--main_color);
+    font-weight:bold;
+}
+
+.margin{
+    margin-top: 8em;
+}
+#work{
+    height: 57em;
+    width: 102%;
+    background-image: url("../images/img1.webp");
+    background-size: cover;
+}
+.button_design button{
+    border-color: var(--main_color);
+    background-color: var(--theme_color);
+    color: var(--main_color);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width:20%
+}
+#work button{
+   margin-top: 52em;
+  
+}
+
+#home{
+    height: 40em;
+    width: 100%;
+    background-image: url("../images/img2.jpg");
+    background-size: cover;
+    margin-bottom: 17px;
+}
+
+#home button{
+    margin-top:37em ;
+}
+
+#school{
+    height: 16em;
+    width: 100%;
+    background-image: url("../images/img3.jpg");
+    background-size: cover;
+
+}
+
+#school button{
+    margin-top: 13em;
+}
+
+
+#chat{
+
+    height: 30em;
+    width: 100%;
+    background-image: url("../images/chat.webp");
+    background-size: cover;
+}
+.function_button_design{
+    margin-top: 5em;
+    margin-left: 5em;
+}
+
+.function_button_design button{
+    color: var(--main_color);
+    background-color:transparent;
+    border: none;
+    border-left:1px solid var(--main_color) ;
+    padding: 1em;
+    margin: 5px;
+}
+
+#meet{
+
+    height: 30em;
+    width: 100%;
+    background-image: url("../images/meet.webp");
+    background-size: cover;
+}
+#call{
+
+    height: 30em;
+    width: 100%;
+    background-image: url("../images/call.webp");
+    background-size: cover;
+}
+#collaborate{
+
+    height: 30em;
+    width: 100%;
+    background-image: url("../images/collaborate.webp");
+    background-size: cover;
+}
+#highlight_btn{
+    border-left: 5px solid var(--theme_color);
+    font-weight: 600;
+    
+}
